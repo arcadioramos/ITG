@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import logoTec from '../images/logo_tecnm.png'
 import logoSonora from '../images/logo_sonora.png'
 
@@ -6,8 +6,8 @@ import logoSonora from '../images/logo_sonora.png'
 const Header = ()=>{
     return(
         <div className="header">
-            <img src = {logoTec} />
-            <img src = {logoSonora} />
+            <img src = {logoTec} alt="logotec" />
+            <img src = {logoSonora} alt="logosonora"/>
         </div>
     )
 }

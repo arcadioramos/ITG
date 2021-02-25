@@ -6,8 +6,8 @@ import logoSonora from '../images/logo_sonora.png'
 const Header = ()=>{
     return(
         <div className="header">
-            <img src = {logoTec} />
-            <img src = {logoSonora} />
+            <img id="logoTec" src = {logoTec} alt="logoTec" />
+            <img id="logoSonora" src = {logoSonora} alt="logoSonora" />
         </div>
     )
 }

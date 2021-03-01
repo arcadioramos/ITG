@@ -50,3 +50,11 @@
   color: white;
   
 }
+
+.carousel img{
+  max-width: 25% !important;
+  height: auto;
+}
+.carousel .slide{
+  background: black !important;
+}

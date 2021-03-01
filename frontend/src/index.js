@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Users from './components/Users';
 import Header from './components/Header';
 import NavbarITG from './components/NavbarITG'
+import CarouselITG from './components/CarouselITG';
 
 ReactDOM.render(
   <React.StrictMode>
     <div>
       <Header/>
       <NavbarITG/>
+      <CarouselITG/>
       <Users/>
     </div>
     <h1>Arcadio Ramos React</h1>
